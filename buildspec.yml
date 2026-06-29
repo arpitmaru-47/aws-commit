@@ -1,14 +1,10 @@
 version: 0.2
 
 phases:
-  install:
+  build:
     commands:
-      - echo installing dependencies
-
-build:
-  commands:
-    - echo Build started
-    - python app.py
+      - echo Build started
+      - python app.py
 
 artifacts:
   files:
